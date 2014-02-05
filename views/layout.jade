@@ -2,6 +2,18 @@ doctype html
 html
   head
     title= title
+    meta(charset='utf-8')
+    meta(name='description', content='Flucker, random Github issue assignment')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='author', content='Benjamin Dean and Randall Degges')
+    link(rel='stylesheet', href='/stylesheets/normalize.css')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='js/vendor/modernizr.js')
   body
     block content
+
+ 
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+    script(src='js/main.js')

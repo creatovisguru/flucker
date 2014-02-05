@@ -7,4 +7,4 @@ Some days your the day, other days your the hydrant
 **Authors**
 
     * Benjamin Dean - @bdeanindy
-    * Randall
+    * Randall Degges - @rdegges
