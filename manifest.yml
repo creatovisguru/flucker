@@ -1,0 +1,14 @@
+--- 
+applications: 
+  .: 
+    url: ${name}.${target-base}
+    mem: 64M
+    framework: 
+      name: node
+      info: 
+        description: Node.js Application
+        exec: 
+        mem: 64M
+    infra: aws
+    instances: 1
+    name: flucker
