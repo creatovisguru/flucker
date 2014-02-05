@@ -12,15 +12,7 @@ var github = require('octonode');
 
 // App Dependencies
 var ghclient = github.client();
-
 var repo = ghclient.repo('creatovisguru/flucker');
-repo.issues(function( one, two, three ) {
-    console.log( 'First Param: ', one );
-    console.log( 'Second Param: ', two );
-    console.log( 'Third Param: ', three );
-});
-var i = ghclient.issue('creatovisguru/flucker', 1);
-console.log( i );
 
 var app = express();
 
@@ -42,6 +34,12 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/api/fluck', function (req, res) {
+  repo.issues(function(err, ghresp) {
+    res.json({'task': ghresp[Math.floor(Math.random() * ghresp.length)]});
+  });
+});
+
 //app.get('/users', user.list);
 
 
