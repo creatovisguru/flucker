@@ -1,19 +1,9 @@
 extends layout
 
 block content
-  h1= Welcome to Flucker
+  h1 Welcome to Flucker
 
-    div#validator
-        div.loadURL
-            fieldset
-                label(for='url') Enter the URL (EX: https://domain.tld/path/to/endpoint/config.js):
-                    input(disabled='disabled',id='url',type='text',value='',name='url')
-                div.buttonWrap
-                    input(id='urlSubmit',disabled='disabled',type='submit',value='Validate')
-        //div.centered.hsplit "OR"
-        //div.pasteConfig
-            fieldset
-                label(for='paste') Pasting the contents:
-                    textarea(disabled='disabled',id='paste',type='text',value='',name='paste')
-                div.buttonWrap
-                    input(id='pasteSubmit',disabled='disabled',type='submit',value='Validate')
+    div#container
+        fieldset
+            div.buttonWrap
+                input(id='fluckSubmit',type='submit',value='Get FLUCKED!')
