@@ -2,7 +2,7 @@
 
 ## Random Github issue assignment
 
-Some days your the dog, other days your the hydrant. Become a flucker today!
+Some days you're the dog, other days you're the hydrant. Become a flucker today!
 
 Is your manager trying to assign you the insane issues all the time? Tell him to get Flucked!
 
