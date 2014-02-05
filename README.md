@@ -6,7 +6,7 @@ Some days your the dog, other days your the hydrant. Become a flucker today!
 
 Is your manager trying to assign you the insane issues all the time? Tell him to get Flucked!
 
-Don't know what to work on in the morning? Use Flucker!
+Don't know what to work on in the morning? Use Fluck IT!
 
 Of course, when you get the crappy, annoying bug issue...Fluck You!
 
