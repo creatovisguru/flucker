@@ -1,6 +1,6 @@
 #Flucker
 
-## Random SCM issue assignment
+## Random Github issue assignment
 
 Some days your the dog, other days your the hydrant. Become a flucker today!
 
