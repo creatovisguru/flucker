@@ -8,6 +8,19 @@ var routes = require('./routes');
 var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
+var github = require('octonode');
+
+// App Dependencies
+var ghclient = github.client();
+
+var repo = ghclient.repo('creatovisguru/flucker');
+repo.issues(function( one, two, three ) {
+    console.log( 'First Param: ', one );
+    console.log( 'Second Param: ', two );
+    console.log( 'Third Param: ', three );
+});
+var i = ghclient.issue('creatovisguru/flucker', 1);
+console.log( i );
 
 var app = express();
 
@@ -29,7 +42,8 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/users', user.list);
+//app.get('/users', user.list);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
