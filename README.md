@@ -12,6 +12,8 @@ Of course, when you get the crappy, annoying bug issue...Fluck You!
 
 "This is Flucking awesome" is what the two people who built this say. Quit being a boring conformist at work and be a Flucking mad man!
 
+[View the live demo](http://flucker.aws.af.cm/)
+
 **Authors**
 
     * Benjamin Dean - @bdeanindy
